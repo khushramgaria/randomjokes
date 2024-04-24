@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: url(images/batman.jpg);
+    background-size: cover;
+}
+
+.jokes {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.584);
+    background-size: cover;
+}
+
+.jokes .headings {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.headings h1 {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    padding: 20px 0 10px;
+    text-decoration: underline;
+}
+
+.headings p {
+    font-weight: 500;
+    color: black;
+    font-family: fantasy;
+    font-size: 20px;
+    padding: 15px 10px;
+    display: inline-block;
+    border-left: solid 5px black;
+    border-right: solid 5px black;
+    text-shadow: 5px 5px 20px white;
+}
+
+.headings small {
+    font-weight: 700;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: grey;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-top: 15rem;
+}
+
+.joke-here {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.joke-here h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin:  0 auto;
+    background-color: grey;
+    padding: 15px;
+    border-radius: 10px;
+    border: solid 5px black;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn button {
+    background-color: grey;
+    padding: 10px 25px;
+    font-size: 18px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-family: sans-serif ;
+    border: solid 3px black;
+    cursor: pointer;
+}
+
+.btn button:active {
+    padding: 9px 24px;
+}
+
+@media(max-width: 768px){
+    body {
+        background-position: center;
+    }
+    .joke-here {
+        margin-top: 12rem;
+    }
+    .headings .small {
+        margin-top: 3rem;
+    }
+}

@@ -1,0 +1,63 @@
+const batman_jokes = [
+    "Why did Batman and Robin never go fishing together? Because Robin eats all the worms!",
+    "What does Batman like to put in his drinks? Just-ice!",
+    "Why did Batman and Robin never play hide and seek? Because good luck hiding when you're dressed in bright colors!",
+    "What does Batman use to communicate with fish? Bat-signals!",
+    "Why did Batman rush to the Batcave? He had to go to the Bat-room!",
+    "Why did Batman and Robin refuse to play cards with the Joker? Because he always has a wild card up his sleeve!",
+    "Why did Batman and Robin never try skydiving? Because they prefer the Bat-parachute!",
+    "Why did Batman and Robin start a garden? They heard crime doesn't root around there!",
+    "What does Batman use to count? Bat-tally marks!",
+    "Why did Batman and Robin open a bakery? They wanted to make Gotham a little sweeter!",
+    "What does Batman put in his sandwiches? Just-iceburg lettuce!",
+    "Why did Batman and Robin join a band? They heard crime rates drop when you play good music!",
+    "Why did Batman and Robin go to the beach? They heard the Joker was making waves!",
+    "What's Batman's favorite fruit? Bat-nanas!",
+    "Why did Batman and Robin go to the circus? They heard the Penguin was clowning around!",
+    "What's Batman's favorite part of a joke? The punchline!",
+    "Why did Batman and Robin go to the zoo? They heard Catwoman was on the prowl!",
+    "What's Batman's favorite type of music? Bat-rock!",
+    "Why did Batman and Robin bring a ladder to the crime scene? Because it was a high-stakes situation!",
+    "Why did Batman and Robin bring a map to the Batcave? Because they heard the Riddler had left clues!",
+    "Why did Batman and Robin go to the museum? They heard Two-Face was exhibiting!",
+    "What did Batman say to his wardrobe? 'Bat-clothes, you're my cape-able allies!'",
+    "Why did Batman and Robin start a pet store? Because they heard Gotham needed more bat-dogs!",
+    "What's Batman's favorite drink? Just-ice tea!",
+    "Why did Batman and Robin go to the gym? They heard Bane was pumping iron!",
+    "What's Batman's favorite game? Bat-minton!",
+    "Why did Batman and Robin go to the farm? They heard Scarecrow was sowing chaos!",
+    "What did Batman say to his Batmobile? 'You drive me batty!'",
+    "Why did Batman and Robin go to the amusement park? They heard the Joker was clowning around!",
+    "What did Batman say when he lost his Bat-signal? 'This really throws a bat-wrench in my plans!'",
+    "Why did Batman and Robin go to the library? They heard Poison Ivy was turning over a new leaf!",
+    "What did Batman say when he got stuck in traffic? 'This is Gotham, not Gotham-laid-back!'",
+    "Why did Batman and Robin go to the theater? They heard Mr. Freeze was trying to break the ice!",
+    "What did Batman say to his computer? 'Bat-data, help me out!'",
+    "Why did Batman and Robin go to the bowling alley? They heard the Riddler was on a roll!",
+    "What did Batman say when he saw his Bat-signal in disrepair? 'Looks like it's time for some Bat-maintenance!'",
+    "Why did Batman and Robin go to the toy store? They heard the Joker was playing games!",
+    "What did Batman say when he couldn't find his cape? 'This really takes the bat-cake!'",
+    "Why did Batman and Robin go to the carnival? They heard Harley Quinn was causing mischief!",
+    "What did Batman say to his butler? 'Alfred, you're my knight in shining bat-armor!'",
+    "Why did Batman and Robin go to the party? They heard the Penguin was serving cold drinks!",
+    "What did Batman say when he couldn't solve a crime? 'This one really bats me up!'",
+    "Why did Batman and Robin go to the zoo? They heard the Riddler was monkeying around!",
+    "What did Batman say when he found a new gadget? 'Looks like I've got another bat-tool in my belt!'",
+    "Why did Batman and Robin go to the charity event? They heard Catwoman was making a purr-formance!",
+    "What did Batman say when he forgot his Bat-key? 'This is quite the bat-lock!'",
+    "Why did Batman and Robin go to the restaurant? They heard Poison Ivy was spicing things up!",
+    "What did Batman say when he saw a bat in his cave? 'Looks like I've got some company!'",
+    "Why did Batman and Robin go to the circus? They heard the Penguin was clowning around!",
+    "What did Batman say when he couldn't find his utility belt? 'This really clips my bat-wings!'",
+    "Why did Batman and Robin go to the museum? They heard Two-Face was displaying!",
+    "What did Batman say when he saw the Bat-signal shining bright? 'Looks like I'm needed!'",
+    "Why did Batman and Robin go to the beach? They heard the Joker was making waves!"
+]
+
+let display = document.getElementById("here");
+let random_digit = Math.floor(Math.random()*44);
+display.innerHTML = "\"" + batman_jokes[random_digit] + "\"";
+
+document.getElementById("button").addEventListener("click", function(){
+    location.reload()
+})
